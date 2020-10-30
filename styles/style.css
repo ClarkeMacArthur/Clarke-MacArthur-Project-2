@@ -234,3 +234,66 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 69px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.home_header h1 {
+  width: 40%;
+}
+
+span {
+  color: #0F0F0F;
+  background-color: #FFFFFF;
+  padding-top: 15px;
+}
+
+header {
+  height: 70vh;
+  background-size: cover;
+}
+
+.home_header {
+  background-image: url(../assets/home-header.jpg);
+}
+
+.blog_header {
+  background-image: url(../assets/blog-header.jpg);
+}
+
+.contact_header {
+  background-image: url(../assets/contact-header.jpg);
+}

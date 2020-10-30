@@ -1,0 +1,17 @@
+
+header {
+    height: 70vh;
+    background-size: cover;
+}
+
+.home_header {
+    background-image: url(#{$image_path}/home-header.jpg);
+}
+
+.blog_header {
+    background-image: url(#{$image_path}/blog-header.jpg);
+}
+
+.contact_header {
+    background-image: url(#{$image_path}/contact-header.jpg);
+}

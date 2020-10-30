@@ -1,5 +1,17 @@
 h1 {
     font-size:69px;
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.home_header h1 {
+    width:40%;
+}
+
+span {
+    color:$black;
+    background-color: $white;
+    padding-top:15px;
 }
