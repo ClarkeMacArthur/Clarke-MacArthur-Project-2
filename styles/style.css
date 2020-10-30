@@ -264,7 +264,7 @@ a:hover, a:focus {
 }
 
 h1 {
-  font-size: 69px;
+  font-size: 6.9rem;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
   color: #FFFFFF;
@@ -279,6 +279,27 @@ span {
   color: #0F0F0F;
   background-color: #FFFFFF;
   padding-top: 15px;
+}
+
+main {
+  font-family: 'Barlow', sans-serif;
+  color: #FFFFFF;
+  font-size: 2rem;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+nav li a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+i {
+  color: #FFD300;
 }
 
 header {
@@ -296,4 +317,32 @@ header {
 
 .contact_header {
   background-image: url(../assets/contact-header.jpg);
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+main {
+  background-color: #2B331B;
+}
+
+main .new_burger {
+  background-color: #171B0E;
+}
+
+footer {
+  background-color: #0F0F0F;
+  color: white;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-size: 2rem;
+  line-height: 28px;
+  letter-spacing: 1px;
 }

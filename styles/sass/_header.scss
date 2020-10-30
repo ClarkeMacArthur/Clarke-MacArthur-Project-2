@@ -15,3 +15,11 @@ header {
 .contact_header {
     background-image: url(#{$image_path}/contact-header.jpg);
 }
+
+nav ul {
+    display:flex;
+    
+    li {
+        padding: 20px;
+    }
+}
