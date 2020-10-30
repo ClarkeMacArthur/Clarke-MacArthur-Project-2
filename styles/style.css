@@ -299,7 +299,15 @@ nav li a {
 }
 
 i {
-  color: #FFD300;
+  color: #171B0E;
+}
+
+.icon_circle {
+  background-color: #FFD300;
+  padding: 10px;
+  border-radius: 75%;
+  height: 50px;
+  width: 50px;
 }
 
 header {

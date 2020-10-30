@@ -34,5 +34,13 @@ nav li a {
 }
 
 i {
-    color: $sunflower;
+    color: $darkgreen;
+}
+
+.icon_circle {
+    background-color: $sunflower;
+    padding:10px;
+    border-radius: 75%;
+    height: 50px;
+    width: 50px;
 }
