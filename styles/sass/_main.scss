@@ -13,23 +13,17 @@ main{
 }
 
 .directory {
-    display:flex;
-    flex-wrap: wrap;
-    padding: 175px 0;
-}
-
-.directory_flex:first-child {
-    border: 5px solid blueviolet;
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 80px;
+    padding: 200px 0;
 }
 
 .directory_flex {
-    width:calc(50% - 20px);
-    padding: 30px;
     position:relative;
 }
 
 .icon_flex {
-    // position: relative;
     position: absolute;
     top: 55px;
     left: -30px;

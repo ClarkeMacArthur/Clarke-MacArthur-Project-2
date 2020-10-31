@@ -371,21 +371,15 @@ main .new_burger {
 }
 
 .directory {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 175px 0;
-}
-
-.directory_flex:first-child {
-  border: 5px solid blueviolet;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  gap: 80px;
+  padding: 200px 0;
 }
 
 .directory_flex {
-  width: calc(50% - 20px);
-  padding: 30px;
   position: relative;
 }
 
