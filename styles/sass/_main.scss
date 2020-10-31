@@ -1,7 +1,36 @@
 main{
     background-color:$pinegreen;
-    
+    position: relative;
     .new_burger{
         background-color: $darkgreen;
     }
+}
+
+.onion_rings {
+    position: absolute;
+    top:-550px;
+    right:0;
+}
+
+.directory {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 175px 0;
+}
+
+.directory_flex:first-child {
+    border: 5px solid blueviolet;
+}
+
+.directory_flex {
+    width:calc(50% - 20px);
+    padding: 30px;
+    position:relative;
+}
+
+.icon_flex {
+    // position: relative;
+    position: absolute;
+    top: 55px;
+    left: -30px;
 }
