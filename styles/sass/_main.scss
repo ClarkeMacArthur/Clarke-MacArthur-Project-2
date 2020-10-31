@@ -55,17 +55,6 @@ main{
     
 }
 
-.new_burger a {
-    padding: 5px 10px;
-    background-color: $sunflower;
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: 41.6px;
-    font-size:2.24rem;
-    text-transform: uppercase;
-    color: $black;
-    align-self: flex-start;
-    margin-top: 50px;
-}
 
 .burger_text {
     margin-left: 150px;
@@ -84,4 +73,19 @@ main{
 .burger_text, .new_text {
     display:flex;
     flex-direction: column;
+}
+
+
+.gift {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.banner {
+    background-image: url(#{$image_path}/banner.jpg);
+    background-size: cover;
+    height: 50vh;
 }
