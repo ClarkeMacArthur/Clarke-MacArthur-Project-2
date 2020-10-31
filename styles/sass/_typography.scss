@@ -24,7 +24,7 @@ h2 {
     letter-spacing: 1.3px;
 }
 
-.gift h2 {
+.gift h2, .nature h2 {
     color: $sunflower;
 }
 
@@ -82,7 +82,8 @@ main a {
     margin-top: 50px;
 }
 
-.gift a {
+.gift a,
+.nature_text a {
     color: $white;
     padding: 5px 20px;
     background-color: $black;

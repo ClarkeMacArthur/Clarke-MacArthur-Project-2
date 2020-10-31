@@ -38,13 +38,13 @@ main{
 }
 
 .new_burger img:first-of-type {
-    box-shadow: 20px 20px #FDD300;
+    box-shadow: 20px 20px $sunflower;
     top: -75px;
     left: -150px;
 }
 
 .new_burger img:last-of-type {
-    box-shadow: -20px 20px #FDD300;
+    box-shadow: -20px 20px $sunflower;
     top: 55px;
     right: -150px;
 }
@@ -88,4 +88,41 @@ main{
     background-image: url(#{$image_path}/banner.jpg);
     background-size: cover;
     height: 50vh;
+}
+
+.nature_spaces{
+    display:flex;
+    justify-content: center;
+}
+.nature {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 150px;
+    margin: 150px;
+}
+
+.nature img {
+    box-shadow: -20px 20px #FDD300;
+}
+.nature_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.nature_text a {
+    align-self: flex-start;
+}
+
+.gallery {
+    background-color: $darkgreen;
+}
+
+.gallery_flex{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+.gallery img {
+    width: calc(33% - 20px);
+    padding: 20px;
 }
