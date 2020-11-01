@@ -388,6 +388,18 @@ main a {
   margin-top: 50px;
 }
 
+button {
+  background-color: #FFD300;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.24rem;
+  line-height: 41.6px;
+  border: none;
+  width: 825px;
+  margin-bottom: 70px;
+}
+
 header {
   height: 70vh;
   background-size: cover;
@@ -709,6 +721,40 @@ aside img {
 
 .comment_text p {
   margin-top: 10px;
+}
+
+input, textarea {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+input {
+  border: none;
+  border-bottom: 3px solid #FFD300;
+  width: 380px;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.name {
+  margin-right: 50px;
+}
+
+textarea {
+  border: 3px solid #FFD300;
+  width: 825px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.comment_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer {

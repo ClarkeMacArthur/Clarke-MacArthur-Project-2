@@ -227,3 +227,35 @@ aside img{
 .comment_text p {
     margin-top: 10px;
 }
+
+input, textarea {
+	background-color: transparent;
+	color: $white;
+}
+
+input {
+    border: none;
+    border-bottom: 3px solid $sunflower;
+    width: 380px;
+    padding:30px;
+    margin: 20px 0;
+}
+
+.name {
+    margin-right: 50px;
+}
+
+textarea {
+    border: 3px solid $sunflower;
+    width: 825px;
+    padding: 30px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+
+.comment_form {
+    display: flex;
+    justify-content: center;
+}
+
+
