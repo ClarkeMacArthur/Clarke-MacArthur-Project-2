@@ -36,7 +36,14 @@ h3 {
     line-height: 58px;
     letter-spacing: 0.8px;
     color: $sunflower;
+}
 
+h5 {
+    font-size: 2rem;
+}
+
+.comment h5 {
+    color: $sunflower;
 }
 
 span {

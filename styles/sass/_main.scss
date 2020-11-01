@@ -192,3 +192,38 @@ aside img{
     padding-top: 70px;
     padding-right: 10%;
 }
+
+.blog_text p {
+    margin-top: 30px;
+}
+
+.comments h2{
+    margin-bottom: 20px;
+}
+
+.comments_grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+
+.comment {
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    margin: 0px 80px 140px 0px;
+}
+
+.comment_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.comment_text {
+    margin-left: 50px;
+}
+
+.comment_text p {
+    margin-top: 10px;
+}

@@ -310,6 +310,14 @@ h3 {
   color: #FFD300;
 }
 
+h5 {
+  font-size: 2rem;
+}
+
+.comment h5 {
+  color: #FFD300;
+}
+
 span {
   color: #0F0F0F;
   background-color: #FFFFFF;
@@ -652,6 +660,55 @@ aside img {
   padding-bottom: 100px;
   padding-top: 70px;
   padding-right: 10%;
+}
+
+.blog_text p {
+  margin-top: 30px;
+}
+
+.comments h2 {
+  margin-bottom: 20px;
+}
+
+.comments_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+
+.comment {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 12fr;
+      grid-template-columns: 1fr 12fr;
+  margin: 0px 80px 140px 0px;
+}
+
+.comment_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.comment_text {
+  margin-left: 50px;
+}
+
+.comment_text p {
+  margin-top: 10px;
 }
 
 footer {
