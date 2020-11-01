@@ -272,6 +272,7 @@ h1 {
   font-weight: 600;
   color: #FFFFFF;
   text-transform: uppercase;
+  margin-left: 20px;
 }
 
 .home_header h1 {
@@ -402,7 +403,7 @@ button {
 }
 
 header {
-  height: 70vh;
+  height: 60vh;
   background-size: cover;
 }
 
@@ -412,10 +413,12 @@ header {
 
 .blog_header {
   background-image: url(../assets/blog-header.jpg);
+  height: 50vh;
 }
 
 .contact_header {
   background-image: url(../assets/contact-header.jpg);
+  height: 50vh;
 }
 
 nav ul {
@@ -428,8 +431,16 @@ nav ul li {
   padding: 20px;
 }
 
+nav a {
+  padding-bottom: 10px;
+}
+
 nav a:hover, nav a:focus {
   border-bottom: 2px solid #FFD300;
+}
+
+.blog_header h1, .contact_header h1 {
+  margin-top: 10%;
 }
 
 main {
@@ -609,7 +620,7 @@ main .new_burger {
 .blog_post img {
   -webkit-box-shadow: -20px 15px #FFD300;
           box-shadow: -20px 15px #FFD300;
-  margin-top: -100px;
+  margin-top: -150px;
 }
 
 aside {
