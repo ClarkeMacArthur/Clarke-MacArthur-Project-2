@@ -23,3 +23,7 @@ nav ul {
         padding: 20px;
     }
 }
+
+nav a:hover, nav a:focus {
+	border-bottom: 2px solid $sunflower;
+}

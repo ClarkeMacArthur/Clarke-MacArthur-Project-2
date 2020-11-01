@@ -251,11 +251,59 @@ textarea {
     padding: 30px;
     margin-top:20px;
     margin-bottom: 40px;
+    resize: none;
 }
 
 .comment_form {
     display: flex;
     justify-content: center;
+}
+
+.contact_form {
+    background-color: $darkgreen;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px $sunflower;
+    padding: 0 70px;
+    margin-top: -150px;
+    margin-bottom: 200px;
+    margin-left: 120px;
+}
+
+.contact_form textarea {
+    height: 300px;
+}
+
+.contact_form input {
+    margin-top: 70px;
+}
+
+.socials {
+    display: flex;
+}
+
+.contact_socials {
+    display: flex;
+    flex-direction:column;
+
+}
+
+.contact_flex {
+    display: flex;
+}
+
+.contact_info {
+    display:flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.contact_info p {
+    margin-left: 20px;
+}
+
+.contact_socials p {
+    margin-bottom: 30px;
 }
 
 
