@@ -15,7 +15,6 @@ main{
 }
 
 
-
 .directory {
     display:grid;
     grid-template-columns: 2fr 2fr;
@@ -71,6 +70,11 @@ main{
     align-self: flex-end;
 }
 
+.new_burger a:hover, .newburger a:focus {
+    background-color: $black;
+    color: $sunflower;
+}
+
 .burger_text, .new_text {
     display:flex;
     flex-direction: column;
@@ -91,6 +95,10 @@ main{
     }
 }
 
+.gift a:hover, .nature a:hover, .gift a:focus, .nature a:focus {
+    background-color: $sunflower;
+    color: $darkgreen;
+}
 
 .banner {
     background-image: url(#{$image_path}/banner.jpg);
@@ -291,6 +299,7 @@ textarea {
     display: flex;
 }
 
+
 .contact_socials {
     display: flex;
     flex-direction:column;
@@ -314,5 +323,6 @@ textarea {
 .contact_socials p {
     margin-bottom: 30px;
 }
+
 
 

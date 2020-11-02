@@ -249,8 +249,7 @@
 
 @media (max-width:600px) {
 
-    header {
-        position: relative;
+    .home_header {
         h1{
             font-size: 5.8rem;
             margin-left: 0;
@@ -264,35 +263,35 @@
     }
 
     .hamburger_menu {
-        background-color: $pinegreen;
+        background-color: $sunflower;
         height: 50vh;
         position: fixed;
-        display:flex;
-        flex-direction:column;
+        display:block;
         right: -90%;
         width: 90%;
         transition: all 1s ease;
         margin-top:50px;
         z-index:11;
+        li {
+            padding: 0;
+        }
         a {
-            color:$white;
+            color:$black;
             font-size: 3rem;
-            margin-bottom: 20px;
+            display:block;
             padding: 20px;
             transition: all 0.5s ease-in-out;
         }
-        li{
-            padding: 20px;
-        }    
     }
 
 
 
     .hamburger_menu a:hover,
     .hamburger_menu a:focus {
-        color: $sunflower;
-        background-color: $darkgreen;
-        border:none;
+            color: $sunflower;
+            background-color: $darkgreen;
+            border:none;
+        
     }
 
     input[type="checkbox"]:checked + .hamburger_menu {
@@ -410,9 +409,16 @@
         align-items: center;
         input {
             width: 400px;
+            margin-right:0;
         }
         .name {
             margin-right: 0;
+        }
+    }
+
+    .contact_info {
+        p {
+            margin-left:0;
         }
     }
 
@@ -425,4 +431,64 @@
             width: 400px;
         }
     }
+}
+
+@media (max-width: 440px) {
+    .home_header {
+        h1 {
+            font-size: 4.5rem;
+        }
+    }
+
+    .onion_rings {
+        width: 95%;
+    }
+
+    .directory {
+        h2 {
+            font-size: 3.6rem;
+        }
+    }
+
+    .nature {
+        h2 {
+            font-size: 3.5rem;
+        }
+    }
+
+    .blog_content {
+        p {
+            font-size: 1.8rem;
+        }
+    }
+
+    .blog_text {
+        h2 {
+            font-size: 3.6rem;
+            line-height: 50px;
+            margin-bottom: 15px;
+        }
+    }
+
+
+    .comment_flex {
+        margin-bottom: 30px;
+    }
+
+    .comment_form, .contact_form {
+        input {
+            width: 300px;
+        }
+        textarea {
+            width: 300px;
+        }
+        button {
+            width: 300px;
+        }
+    } 
+
+    .contact_form {
+        margin-top: -80px;
+    }
+
 }
