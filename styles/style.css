@@ -443,6 +443,20 @@ nav a:hover, nav a:focus {
   margin-top: 10%;
 }
 
+i.fa-bars {
+  visibility: hidden;
+  position: fixed;
+  top: 12px;
+  right: 20px;
+  color: #FFFFFF;
+  font-size: 3rem;
+  z-index: 10;
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+}
+
 main {
   background-color: #2B331B;
   position: relative;
@@ -471,6 +485,7 @@ main .new_burger {
 
 .directory_flex {
   position: relative;
+  margin-left: 5%;
 }
 
 .icon_flex {
@@ -505,14 +520,14 @@ main .new_burger {
 }
 
 .burger_text {
-  margin-left: 150px;
+  margin-left: 23%;
   margin-top: 80px;
 }
 
 .new_text {
   text-align: right;
   margin-top: 40px;
-  padding-right: 150px;
+  margin-right: 12%;
 }
 
 .new_text a {
@@ -548,6 +563,7 @@ main .new_burger {
 .banner {
   background-image: url(../assets/banner.jpg);
   background-size: cover;
+  background-position: center;
   height: 50vh;
 }
 
@@ -847,4 +863,82 @@ footer {
   font-size: 2rem;
   line-height: 28px;
   letter-spacing: 1px;
+}
+
+@media (max-width: 1460px) {
+  .onion_rings {
+    height: auto;
+    width: 50%;
+    top: -400px;
+  }
+  .new_burger h2 {
+    font-size: 3.5rem;
+  }
+  .new_burger img {
+    width: 110%;
+  }
+  .nature {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 100px;
+    justify-items: center;
+    margin-bottom: 0;
+  }
+  .nature img {
+    width: 50%;
+  }
+  .nature_text {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nature a {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-bottom: 10%;
+  }
+  .nature p {
+    text-align: center;
+  }
+  .blog_grid {
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+    -webkit-column-gap: 100px;
+            column-gap: 100px;
+  }
+  .blog_grid h3 {
+    font-size: 2.2rem;
+    line-height: 40px;
+  }
+  .aside_text {
+    padding-left: 20px;
+  }
+  .blog_text {
+    padding-left: 70px;
+  }
+  .blog_text h2 {
+    font-size: 4rem;
+    line-height: 60px;
+  }
+  .comment {
+    -ms-grid-columns: 1fr 6fr;
+        grid-template-columns: 1fr 6fr;
+  }
+  .comment_form {
+    margin-left: 30%;
+    margin-right: 10%;
+  }
+  .contact_form {
+    width: 70%;
+    margin-left: 5%;
+  }
+  .contact_form input {
+    width: 250px;
+  }
+  .contact_form textarea, .contact_form button {
+    width: 600px;
+  }
 }

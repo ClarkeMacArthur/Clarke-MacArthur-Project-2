@@ -38,6 +38,16 @@ nav a:hover, nav a:focus {
     margin-top: 10%;
 }
 
-// .contact_header h1 {
+i.fa-bars{
+    visibility: hidden;
+    position: fixed;
+    top: 12px;
+    right: 20px;
+    color: $white;
+    font-size: 3rem;
+    z-index:10;
+}
 
-// }
+input[type=checkbox] {
+    visibility: hidden;
+} 

@@ -1,0 +1,93 @@
+
+@media (max-width: 1460px) {
+
+    .onion_rings {
+        height:auto;
+        width: 50%;
+        top: -400px;
+    }
+
+    .new_burger h2 {
+        font-size: 3.5rem;
+    }
+
+    .new_burger img {
+        width: 110%;
+    }
+
+    .nature {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 100px;
+        justify-items: center;
+        margin-bottom: 0;
+    }
+
+    .nature img {
+        width: 50%;
+    }
+
+    .nature_text {
+        align-items:center;
+    }
+
+    .nature a {
+        align-self: center;
+        margin-bottom: 10%;
+    }
+
+    .nature p {
+        text-align: center;
+    }
+
+    .blog_grid {
+        grid-template-columns: 1fr 2fr;
+        column-gap: 100px;
+    }
+
+    .blog_grid h3 {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+
+    .aside_text {
+        padding-left: 20px;
+    }
+
+    .blog_text {
+        padding-left: 70px;
+    }
+
+    .blog_text h2 {
+        font-size: 4rem;
+        line-height: 60px;
+    }
+
+    .comment {
+        grid-template-columns: 1fr 6fr;
+    }
+
+    .comment_form {
+        margin-left: 30%;
+        margin-right: 10%;
+    }
+    
+    .contact_form{
+        width:70%;
+        margin-left: 5%;
+    }
+
+    .contact_form input {
+        width: 250px;
+        // margin-left: 50px;
+    }
+
+    .contact_form textarea, .contact_form button {
+        width: 600px;
+    }
+
+    
+
+    
+    
+}

@@ -25,6 +25,7 @@ main{
 
 .directory_flex {
     position:relative;
+    margin-left: 5%;
 }
 
 .icon_flex {
@@ -57,13 +58,13 @@ main{
 
 
 .burger_text {
-    margin-left: 150px;
+    margin-left: 23%;
     margin-top: 80px;
 }
 .new_text {
     text-align: right;
     margin-top:40px;
-    padding-right: 150px;
+    margin-right: 12%;
 }
 
 .new_text a {
@@ -87,6 +88,7 @@ main{
 .banner {
     background-image: url(#{$image_path}/banner.jpg);
     background-size: cover;
+    background-position: center;
     height: 50vh;
 }
 
