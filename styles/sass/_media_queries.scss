@@ -316,7 +316,7 @@
         }
     }
 
-    .burger_text {
+    .new_burger .burger_text {
         margin-top: 60px;
         margin-left:0;
         align-items:center;
@@ -328,14 +328,21 @@
         }
     }
 
-    .new_text {
+    .new_burger_grid .new_text {
         align-items: center;
         text-align: center;
         margin-right: 0;
-        a {
-            align-self:center;
-            margin-bottom: 70px;
+        h2 {
+            text-align:center;
         }
+        p{
+            text-align:center;
+        }
+    }
+    
+    .new_burger_grid .new_text a {
+        align-self:center;
+        margin-bottom: 70px;
     }
 
     .gift {
@@ -354,7 +361,11 @@
             line-height: 50px;
             margin-bottom: 30px;
         }
+        .nature_text a {
+                    align-self: center;
+                }
     }
+    
 
     .gallery_flex {
         flex-direction: column; 

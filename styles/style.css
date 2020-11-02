@@ -799,7 +799,7 @@ input {
   margin: 20px 0;
 }
 
-input .name {
+.name {
   margin-right: 50px;
 }
 
@@ -1200,29 +1200,35 @@ footer {
     position: initial;
     width: 100%;
   }
-  .burger_text {
+  .new_burger .burger_text {
     margin-top: 60px;
     margin-left: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  .burger_text p, .burger_text h2 {
+  .new_burger .burger_text p, .new_burger .burger_text h2 {
     text-align: center;
   }
-  .burger_text a {
+  .new_burger .burger_text a {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
   }
-  .new_text {
+  .new_burger_grid .new_text {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
     margin-right: 0;
   }
-  .new_text a {
+  .new_burger_grid .new_text h2 {
+    text-align: center;
+  }
+  .new_burger_grid .new_text p {
+    text-align: center;
+  }
+  .new_burger_grid .new_text a {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1239,6 +1245,11 @@ footer {
   .nature h2 {
     line-height: 50px;
     margin-bottom: 30px;
+  }
+  .nature .nature_text a {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .gallery_flex {
     -webkit-box-orient: vertical;
