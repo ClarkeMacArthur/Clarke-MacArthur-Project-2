@@ -23,15 +23,17 @@ nav ul {
     
     li {
         padding: 20px;
+
+        a{
+            padding-bottom: 10px;
+        }
     }
 }
 
-nav a {
-    padding-bottom: 10px;
-}
 
 nav a:hover, nav a:focus {
-	border-bottom: 2px solid $sunflower;
+    border-bottom: 2px solid $sunflower;
+    
 }
 
 .blog_header h1, .contact_header h1 {
