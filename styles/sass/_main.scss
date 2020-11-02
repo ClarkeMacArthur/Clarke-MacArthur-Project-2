@@ -83,11 +83,14 @@ main{
     align-items: center;
     margin-top: 150px;
     margin-bottom: 150px;
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
 }
 
-.gift p {
-    text-align: center;
-}
 
 .banner {
     background-image: url(#{$image_path}/banner.jpg);

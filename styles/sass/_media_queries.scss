@@ -72,7 +72,6 @@
     }
     
     .contact_form {
-        width:70%;
         margin-left: 5%;
     }
 
@@ -180,6 +179,7 @@
         margin-top: 10px;
         }
     }
+
     .margin {
         margin-top: 30px;
     }
@@ -194,12 +194,17 @@
         margin: 0 auto;
     }
 
+    
+
     .comment_form {
         max-width: 1400px;
         width: 90%;
         margin: 0 auto;
         input {
             width: 248px;
+            .name {
+                margin-right:40px;
+            }
         }
         textarea {
             width: 550px;
@@ -215,14 +220,209 @@
         .contact_form {
             margin-bottom: 50px;
             margin-left: 0;
+            padding: 0 60px;
         }
         .contact_info {
             margin-top: 0;
             margin-bottom: 50px;
+            margin-left: 0;
             text-align: center;
             align-items: center;
         }
         
     }
+
+    .contact_form {
+        input {
+            width: 200px;
+            margin-top: 60px;
+            margin-right: 20px;
+        }
+        textarea {
+            width:450px;
+        }
+        button {
+            width: 450px;
+        }
+    }
 }
 
+@media (max-width:600px) {
+
+    header {
+        position: relative;
+        h1{
+            font-size: 5.8rem;
+            margin-left: 0;
+        }
+    }
+
+    i.fa-bars{
+        visibility: visible;
+        text-shadow: 0px 0px 5px $black;
+        cursor: pointer;
+    }
+
+    .hamburger_menu {
+        background-color: $pinegreen;
+        height: 50vh;
+        position: fixed;
+        display:flex;
+        flex-direction:column;
+        right: -90%;
+        width: 90%;
+        transition: all 1s ease;
+        margin-top:50px;
+        z-index:11;
+        a {
+            color:$white;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: all 0.5s ease-in-out;
+        }
+        li{
+            padding: 20px;
+        }    
+    }
+
+
+
+    .hamburger_menu a:hover,
+    .hamburger_menu a:focus {
+        color: $sunflower;
+        background-color: $darkgreen;
+        border:none;
+    }
+
+    input[type="checkbox"]:checked + .hamburger_menu {
+        right:0;
+    }
+
+    input[type=checkbox] {
+        visibility: hidden;
+        top: 0;
+        right: 0;
+    }
+
+    .onion_rings {
+        width: 80%
+    }
+
+    .directory {
+        h2 {
+            font-size:3.8rem;
+            line-height: 60px;
+        }
+    }
+
+    .new_burger {
+        padding-bottom: 20px;
+        img {
+            position:initial;
+            width: 100%;
+        }
+    }
+
+    .burger_text {
+        margin-top: 60px;
+        margin-left:0;
+        align-items:center;
+        p, h2 {
+            text-align: center;
+        }
+        a {
+            align-self: center;
+        }
+    }
+
+    .new_text {
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+        a {
+            align-self:center;
+            margin-bottom: 70px;
+        }
+    }
+
+    .gift {
+        h2 {
+            font-size: 4rem;
+            line-height: 60px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .nature {
+        img {
+            width: 80%;
+        }
+        h2 {
+            line-height: 50px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .gallery_flex {
+        flex-direction: column; 
+        align-items: center;
+        img {
+            width: 100%;
+            padding: 20px;
+        }
+    }
+
+    .blog_header {
+        h1 {
+            margin-top: 40%;
+        }
+    }
+
+    .blog_text {
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    .comment {
+        display:flex;
+        flex-direction: column;
+        margin:20px;
+        img {
+            width: 40%;
+            margin-bottom: 10px;
+        }
+        .comment_text {
+            margin-left: 0;
+        }
+    }
+
+
+    .contact_header {
+        h1 {
+            margin-top: 20%;
+        }
+    }
+
+    .name_email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input {
+            width: 400px;
+        }
+        .name {
+            margin-right: 0;
+        }
+    }
+
+    .contact_form {
+        box-shadow: 0px 0px $sunflower;
+        textarea {
+            width: 400px;
+        }
+        button {
+            width: 400px;
+        }
+    }
+}
