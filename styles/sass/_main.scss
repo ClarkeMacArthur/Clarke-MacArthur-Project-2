@@ -85,6 +85,10 @@ main{
     margin-bottom: 150px;
 }
 
+.gift p {
+    text-align: center;
+}
+
 .banner {
     background-image: url(#{$image_path}/banner.jpg);
     background-size: cover;
